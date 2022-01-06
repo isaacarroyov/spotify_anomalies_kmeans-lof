@@ -11,7 +11,7 @@ You'll receive a lot of JSON files but the one we need is **Playlist.json** (in 
 `Playlist1.json`)
 
 ## Extracting songs from a playlist
-_Description of the steps on **`get_playlist_songs.py`**_
+_Description of the steps on [**`get_playlist_songs.py`**](https://github.com/isaacarroyov/spotify_anomalies_kmeans-lof/blob/main/scripts/get_playlist_songs.py)_
 
 I wanted to take a JSON file into a friendly CSV file :hugs:, to do that I need the **`json`** 
 and **`pandas`** libraries
@@ -78,7 +78,7 @@ df.to_csv('../data/songs_my_top_100_2016-2021.csv', index=False)
 ```
 
 ## Extracting songs attributes
-_Description of the steps on **`get_song_atributtes.py`**_
+_Description of the steps on [**`get_song_atributtes.py`**](https://github.com/isaacarroyov/spotify_anomalies_kmeans-lof/blob/main/scripts/get_song_atributtes.py)_
 
 
 Once I had all the songs and their **URI**, I could extract the 
