@@ -78,6 +78,9 @@ df.to_csv('../data/songs_my_top_100_2016-2021.csv', index=False)
 ```
 
 ## Extracting songs attributes
+_Description of the steps on **`get_song_atributtes.py`**_
+
+
 Once I had all the songs and their **URI**, I could extract the 
 [**audio features**](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features) 
 from each song.
