@@ -4,3 +4,4 @@ data_spotify/
 *.cache
 scripts/*.ipynb
 *.log
+images_posts/
